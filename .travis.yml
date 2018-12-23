@@ -1,0 +1,5 @@
+sudo: required
+services:
+  - docker
+before_install:
+  - docker build -t futuroz/test-docker-1 -f Dockerfile.dev
